@@ -229,9 +229,9 @@ public class Game {
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
 				if ((i + j) % 2 == 1) {
-					g.setColor(new Color(118, 150, 86));
+					g.setColor(new Color(139, 69, 19)); 
 				} else {
-					g.setColor(new Color(238, 238, 210));
+					g.setColor(new Color(222, 184, 135)); 
 				}
 				g.fillRect(i * Piece.size, j * Piece.size, Piece.size, Piece.size);
 			}
